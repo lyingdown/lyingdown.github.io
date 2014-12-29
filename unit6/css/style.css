@@ -1,0 +1,300 @@
+* { margin:0; padding:0; box-sizing:border-box; }
+
+body {
+  background: #fff;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  font-family: 'Merriweather', serif;
+  font-size: 62.5%;
+}
+
+header{
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 10em;
+  color: #b23e30;
+  text-transform: uppercase;
+}
+
+#mainh1 {
+  margin-bottom: 25px;
+}
+
+p {
+  font-family: 'Merriweather', serif;
+  font-size: 2em;
+  line-height: 1.5em;
+}
+
+h2 {
+  font-family: 'Neucha', sans-serif;
+  font-size: 3em;
+}
+
+h3 {
+  color: rgb(66,178,121);
+  font-family: 'Oswald', sans-serif;
+  font-size: 2.5em;
+  text-transform: uppercase;
+  margin-bottom: 0.5em;
+}
+
+nav {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div {
+}
+  
+span {
+  border: 0px;
+  margin: 0px;
+}
+
+section {
+  
+}
+
+footer {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  height: 10vh; 
+}
+
+.cardsquare {
+  text-align: center;
+  width: 33.33%;
+  height: 33.33vw;
+  display: inline-block;
+  padding-top: 10vw;
+  float: left;
+}
+
+.mini {
+  width: 10vh;
+  height: 10vh;
+}
+
+
+/* card front set up */
+.cardfront {
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 85vh;
+}
+
+.cardfrontsection {
+  background-image: url('../images/white_bg.png');
+  height: 5vh;
+}
+
+#christmascard {
+  background-image: url('../images/christmas.png');
+}
+
+#newyearscard {
+  background-image: url('../images/newyears.png');
+}
+
+#holidayscard {
+  background-image: url('../images/holidays.png');
+}
+
+#chanukahcard {
+  background-image: url('../images/chanukah.png');
+}
+
+#ramadancard {
+  background-image: url('../images/ramadan.png');
+}
+
+#temp1 {
+  background-color: #fff;
+  height: 100%;
+  float: left;
+  width: 21%;
+}
+
+#temp2 {
+  height: 100%;
+  float: left;
+  width: 58%;
+}
+
+#temp3 {
+  background-color: #fff;
+  height: 100%;
+  float: left;
+  width: 21%;
+}
+
+#cardscallop {
+  background-image: url('../images/scallop.png');
+  background-repeat: repeat-x;
+  height: 10px;
+}
+
+/* background colours for index cardsquares */
+#christmas {
+  background: rgba(178,62,48,1.0);
+}
+
+#holidays {
+  background: rgb(255,134,120);
+}
+
+#chanukah {
+  background: rgb(146,255,199);
+}
+
+#ramadan {
+  background: rgb(66,178,121);
+}
+
+#newyears {
+  background: rgb(85,85,85);
+}
+
+#getthecode {
+  background: rgb(239,239,239);
+  color: #000;
+}
+
+a {
+  color: #fff;
+}
+
+a:hover {
+  opacity: 0.7;
+}
+
+span.highlight:hover {
+  background: rgba(255,255,255,0.7);
+  color: rgb(200,200,200);
+  opacity: 0.7;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+/* inside card framework setup */
+.insidecard {
+  height: 90vh;
+  margin-top: 10vh;
+}
+
+.cardmessage {
+  margin: 50px auto;
+  padding: 50px;
+  width: 750px;
+}
+
+.cardh1 {
+  text-shadow: 3px 3px rgba(255,255,255,1.0);
+}
+
+.cardh2 {
+  font-size: 4em;
+  margin-bottom: 5px;
+}
+
+/* christmas customizations for inside card */
+#christmasimgbg {
+  background-image: url('../images/historic_lake_effect_anthony_quintano.jpg');
+}
+
+#christmash1 {
+  color: #b23e30;
+}
+
+#christmash2 {
+  color: rgb(146,255,199);
+}
+
+#christmasmsg {
+  background-color: rgba(66,178,121,0.5);
+}
+
+/* holiday customizations for inside card */
+#holidaysimgbg {
+  background-image: url('../images/winter_getaway_gary_simmons.jpg');
+}
+
+#holidaysh1 {
+  color: rgb(255,134,120);
+}
+
+#holidaysh2 {
+  color: rgb(0,0,0);
+}
+
+#holidaysmsg {
+  background-color: rgba(139,139,139,0.5);
+}
+
+/* chanukah customizations for inside card */
+#chanukahimgbg {
+  background-image: url('../images/happy_chanukah_thomas_hawk.jpg');
+}
+
+#chanukahh1 {
+  color: rgb(255,215,0);
+}
+
+#chanukahh2 {
+  color: rgb(146,255,199);
+}
+
+#chanukahmsg {
+  background-color: rgba(0,0,0,0.3);
+}
+
+/* ramandan customizations for inside card */
+#ramadanimgbg {
+  background-image: url('../images/ramadan_at_katara_omar_chatriwala.jpg');
+}
+
+#ramadanh1 {
+  color: rgb(66,178,121);
+}
+
+#ramadanh2 {
+  color: rgb(255,215,0);
+}
+
+#ramadanmsg {
+  background-color: rgba(0,0,0,0.7);
+}
+
+/* new years customizations for inside card */
+#newyearsimgbg {
+  background-image: url('../images/fireworks_over_the_lake_olsonj.jpg');
+}
+
+#newyearsh1 {
+  color: rgb(255,215,0);
+}
+
+#newyearsh2 {
+  color: rgb(255,215,0);
+}
+
+#newyearsmsg {
+  background-color: rgba(85,85,85,0.5);
+}
