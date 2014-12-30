@@ -113,9 +113,6 @@ footer {
 #chanukahcard {
   background-image: url('../images/chanukah.png');
 }
-#chanukahcard section {
-  background:rgba(0,0,0,.4);
-}
 
 #ramadancard {
   background-image: url('../images/ramadan.png');
@@ -254,6 +251,9 @@ span.highlight:hover {
 /* chanukah customizations for inside card */
 #chanukahimgbg {
   background-image: url('../images/happy_chanukah_thomas_hawk.jpg');
+}
+#chanukahimgbg section {
+  background:rgba(0,0,0,.4);
 }
 
 #chanukahh1 {
