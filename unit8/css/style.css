@@ -1,5 +1,6 @@
 body {
   font: 12px arial, sans-serif;
+  font-family: 'Dosis', sans-serif;
 }
 
 header{
@@ -20,10 +21,14 @@ p {
 
 section {
   display: inline-block;
-  width: 100%;
+  width: 100vw;
   margin-top: 50px;
 }
 
+span {
+  border: 0px;
+  margin: 0px;
+}
 
 .card {
   text-align: center;
