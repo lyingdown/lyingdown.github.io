@@ -1,6 +1,6 @@
 body {
-  font: 12px arial, sans-serif;
   font-family: 'Dosis', sans-serif;
+  font-size: 18px;
 }
 
 header{
@@ -21,8 +21,8 @@ p {
 
 section {
   display: inline-block;
-  width: 100vw;
   margin-top: 50px;
+  width: 100vw;
 }
 
 span {
@@ -31,10 +31,9 @@ span {
 }
 
 .card {
-  text-align: center;
-  height: 10vw;
   display: inline-block;
   float: left;
+  text-align: center;
 }
 
 .mobile-style {
@@ -45,6 +44,14 @@ span {
   width: 100vw;
 }
 
+#mobile-style h1 {
+  font-size: 9em;
+}
+
+.mobile p {
+  font-size: 5em;
+}
+
 .tablet-style {
 
 }
@@ -53,12 +60,20 @@ span {
   width: 50vw;
 }
 
+.tablet p {
+  font-size: 3em;
+}
+
 .desktop-style {
 
 }
 
 .desktop {
   width: 33.33vw;
+}
+
+.desktop p {
+
 }
 
 #card1 {
