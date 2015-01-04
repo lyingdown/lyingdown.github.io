@@ -7,6 +7,16 @@ header{
 
 }
 
+a {
+  color: rgb(184,36,57);
+  text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  color: rgb(255,74,96);
+}
+
 h1 {
   font-size: 7em;
 }
@@ -17,6 +27,7 @@ h2 {
 
 p {
   font-size: 2em;
+  line-height: 1.5em;
 }
 
 section {
@@ -36,6 +47,13 @@ span {
   text-align: center;
 }
 
+.learn-more-button {
+  border: 5px dotted;
+  border-color: rgb(184,36,57);
+  margin: 10px;
+  padding: 3px;
+}
+
 .mobile-style {
 
 }
@@ -43,6 +61,10 @@ span {
 .mobile {
   width: 100vw;
   height: 100vh;
+}
+
+.mobile .learn-more-button {
+  font-size: 3em;
 }
 
 .mobile p {
@@ -56,6 +78,10 @@ span {
 .tablet {
   width: 50vw;
   height: 50vh;
+}
+
+.tablet .learn-more-button {
+  font-size: 2em;
 }
 
 .tablet p {
@@ -81,7 +107,7 @@ span {
 
 #card2 {
   background: rgb(51,55,69);
-  color: #fff;
+  color: rgb(255,255,255);
 }
 
 #card3 {
@@ -102,7 +128,7 @@ span {
 
 #card7 {
   background: rgb(51,55,69);
-  color: #fff;
+  color: rgb(255,255,255);
 }
 
 #card8 {
