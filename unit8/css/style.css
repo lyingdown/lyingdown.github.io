@@ -1,0 +1,112 @@
+body {
+  font: 12px arial, sans-serif;
+}
+
+header{
+
+}
+
+h1 {
+  font-size: 7em;
+}
+
+h2 {
+  font-size: 5em;
+}
+
+p {
+  font-size: 2em;
+}
+
+section {
+  display: inline-block;
+  width: 100%;
+  margin-top: 50px;
+}
+
+
+.card {
+  text-align: center;
+  height: 10vw;
+  display: inline-block;
+  float: left;
+}
+
+.mobile-style {
+
+}
+
+.mobile {
+  width: 100vw;
+}
+
+.tablet-style {
+
+}
+
+.tablet {
+  width: 50vw;
+}
+
+.desktop-style {
+
+}
+
+.desktop {
+  width: 33.33vw;
+}
+
+#card1 {
+  background: rgb(246,247,146);
+}
+
+#card2 {
+  background: rgb(51,55,69);
+  color: #fff;
+}
+
+#card3 {
+  background: rgb(119,196,211);
+}
+
+#card4 {
+  background: rgb(218,237,226);
+}
+
+#card5 {
+  background: rgb(234,46,73);
+}
+
+#card6 {
+  background: rgb(246,247,146);
+}
+
+#card7 {
+  background: rgb(51,55,69);
+  color: #fff;
+}
+
+#card8 {
+  background: rgb(119,196,211);
+}
+
+#card9 {
+  background: rgb(218,237,226);
+}
+
+#card10 {
+  background: rgb(234,46,73);
+}
+
+#card11 {
+  background: rgb(246,247,146);
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
