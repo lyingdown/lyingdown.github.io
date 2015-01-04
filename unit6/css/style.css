@@ -73,9 +73,9 @@ footer {
 .cardsquare {
   text-align: center;
   width: 33.33%;
-  height: 33.33vw;
+  height: 50vh;
   display: inline-block;
-  padding-top: 10vw;
+  padding-top: 10vh;
   float: left;
 }
 

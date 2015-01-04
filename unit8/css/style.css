@@ -42,10 +42,7 @@ span {
 
 .mobile {
   width: 100vw;
-}
-
-#mobile-style h1 {
-  font-size: 9em;
+  height: 100vh;
 }
 
 .mobile p {
@@ -58,10 +55,11 @@ span {
 
 .tablet {
   width: 50vw;
+  height: 50vh;
 }
 
 .tablet p {
-  font-size: 3em;
+  font-size: 4em;
 }
 
 .desktop-style {
@@ -70,6 +68,7 @@ span {
 
 .desktop {
   width: 33.33vw;
+  height: 33.33vh;
 }
 
 .desktop p {
