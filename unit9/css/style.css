@@ -1,0 +1,175 @@
+body {
+  font-family: 'Dosis', sans-serif;
+  font-size: 36px;
+}
+
+a {
+  color: rgb(184,36,57);
+  text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  color: rgb(255,74,96);
+}
+
+footer{
+  background-color: rgb(100,100,100);
+  display: block;
+  height: 1em;
+  padding: .5em 0;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2em;
+  font-weight: 800;
+  margin-bottom: .2em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+p {
+  line-height: 1.2em;
+  margin: .1em auto;
+}
+
+section {
+  display: inline-block;
+  margin-top: 1em;
+  width: 100%;
+}
+
+ul {
+  list-style: circle inside;
+  margin-left: 10px; 
+}
+
+.card {
+  display: inline-block;
+  float: left;
+  height: 15em;
+  text-align: center;
+  width: 100%;
+}
+
+.learn-more-button {
+  border: 5px solid;
+  border-color: rgb(184,36,57);
+  font-size: 1em;
+  margin: .5em;
+  padding: .5em;
+}
+
+#card1 {
+  background: rgb(246,247,146);
+}
+
+#card2 {
+  background: rgb(51,55,69);
+  color: rgb(255,255,255);
+}
+
+#card3 {
+  background: rgb(119,196,211);
+}
+
+#card4 {
+  background: rgb(218,237,226);
+}
+
+#card5 {
+  background: rgb(234,46,73);
+}
+
+#card6 {
+  background: rgb(246,247,146);
+}
+
+#card7 {
+  background: rgb(51,55,69);
+  color: rgb(255,255,255);
+}
+
+#card8 {
+  background: rgb(119,196,211);
+}
+
+#card9 {
+  background: rgb(218,237,226);
+}
+
+#card10 {
+  background: rgb(234,46,73);
+}
+
+#card11 {
+  background: rgb(246,247,146);
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+/**/
+/*Responsive Design Media Query, screens larger than 400px*/
+@media only screen and (min-width: 400px) {
+  body {
+    font-size: 30px;
+  }
+
+  .card p {
+    margin: 5em .5em .5em .5em;
+  }
+
+  .card {
+    height: 15em;
+    text-align: left;
+    width: 50%;
+  }
+
+}
+
+/*Responsive Design Media Query, screens larger than 670px*/
+@media only screen and (min-width: 670px) {
+  body {
+    font-size: 24px;
+  }
+
+  footer{
+    visibility: hidden;
+  }
+
+  .card p {
+    margin-top: 7em;
+  }
+
+  .card {
+    height: 20em;
+    width: 33.33%;
+  }
+
+}
+
+/*Responsive Design Media Query, screens larger than 800px*/
+@media only screen and (min-width: 800px) {
+  body {
+    font-size: 24px;
+  }
+
+  .card p {
+    margin-top: 10em;
+  }
+
+  .card {
+    height: 25em;
+    width: 25%;
+  }
+}
