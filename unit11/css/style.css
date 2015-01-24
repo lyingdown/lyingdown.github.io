@@ -150,7 +150,7 @@ section h3 {
 
 /* section classes */
 .consume {
-  background-color: #ecf0f1; /* rgb(236,240,241) */
+  background-color: #a365bb; /* rgb(163,101,187) */
 }
 
 .create {
@@ -300,7 +300,7 @@ section h3 {
   background-image: url('../images/SVG/hamburger.svg');
   background-repeat: no-repeat;
   background-position: -50px 50px;
-  background-size: 400px 400px;
+  background-size: 300px 300px;
 }
 
 #hotdog {
@@ -366,6 +366,13 @@ section h3 {
   background-size: 400px 400px;
 }
 
+#paperplane {
+  background-image: url('../images/SVG/paperplane.svg');
+  background-repeat: no-repeat;
+  background-position: 150px 150px;
+  background-size: 100px 100px;
+}
+
 #piggy {
   background-image: url('../images/SVG/piggy.svg');
   background-repeat: no-repeat;
@@ -391,7 +398,7 @@ section h3 {
   background-image: url('../images/SVG/umbrella.svg');
   background-repeat: no-repeat;
   background-position: -150px 0px;
-  background-size: 1400px 1400px;
+  background-size: 1100px 1100px;
 }
 
 #www {
