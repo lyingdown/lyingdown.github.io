@@ -6,15 +6,6 @@ body {
   line-height: 1.2;
 }
 
-div {
-  display: block;
-  min-height: 3.5em;
-}
-
-p {
-  display: block;
-}
-
 /* MENU START */
 nav {  
   height: 40px;
@@ -29,14 +20,14 @@ nav {
 nav ul {  
   padding: 0;  
   margin: 0 auto;  
-  width: 50%;  
+  width: 50%;
   height: 40px;  
 }
 
 nav li {  
   display: inline;  
   float: left;
-  width: 30%;
+  width: 25%;
   text-align: center;
 } 
 
@@ -82,18 +73,63 @@ nav a#pull {
 /* MENU END */
 
 /* SECTION FORMATTING START*/
-section {
-  color: #fff;
-  padding: 5% 30%;
+a, a:active, a:visited {
+  color: #95a5a6; /* rgb(149,165,166) */
+  text-decoration: none;
 }
 
-section div {
-  text-align: center;
+a#white, a:active#white, a:visited#white {
+  color: white;
+  text-decoration: none;
+}
+
+div {
+  display: block;
+  height: 100%;
+  min-height: 3.5em;
+}
+
+ol {
+  list-style-type: decimal-leading-zero;
+  margin-left: 45px;
+}
+
+p {
+  display: block;
+  margin-left: 15px;
+}
+
+p.definition {
+  font-weight: 400;
+  margin-left: 0px;
+}
+
+section.megahero {
+  color: #fff;
+  height: 21em;
+  padding-left: 20px;
+}
+
+section.hero {
+  color: #fff;
+  height: 18em;
+  padding-left: 20px;
+}
+
+section.list {
+  color: #fff;
+  min-height: 6em;
+  padding: 5% 20%;
 }
 
 section span {
   display: block;
-  float: left; 
+  float: left;
+  max-width: 80%;
+}
+
+section h1 {
+  font-size: 4.5em;
 }
 
 section h2 {
@@ -110,14 +146,6 @@ section h3 {
   line-height: 1em;
 }
 
-section h3#complete {
-  font-size: 4em;
-  font-weight: 700;
-  line-height: 1em;
-  padding: 0px;
-  margin: 0px;
-  word-break: break-all;
-}
 /* SECTION FORMATTING END*/
 
 /* section classes */
@@ -145,15 +173,68 @@ section h3#complete {
   background-color: #e74c3c; /* rgb(231,76,60) */
 }
 
-/* section background hero images */
-.hero {
-  height: 12em;
+
+/* HERO IMAGES */
+#index1 {
+  background-image: url('../images/red_ian_livesey.jpg'); 
+  /* https://www.flickr.com/photos/ianlivesey/14242785918 */
+  background-position: 0px -80px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-#do1 {
+#act1 {
+  background-image: url('../images/mountain_top_thomas_leth_olsen.jpg'); 
+  /* https://www.flickr.com/photos/thomasletholsen/8751752734 */
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#act2 {
+  background-image: url('../images/brooklyn_bridge_clement_belleudy.jpg'); 
+  /* https://www.flickr.com/photos/clemsherpa/12154738144 */
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#ponder1 {
+  background-image: url('../images/the_bridge_frank_schulenburg.jpg'); 
+  /* https://www.flickr.com/photos/frank_schulenburg/9518366702 */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#ponder2 {
+  background-image: url('../images/summer_sun_nikos_koutoulas.jpg'); 
+  /* https://www.flickr.com/photos/33284937@N04/4771132618 */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#dream1 {
+  background-image: url('../images/bokeh_saleh_alnemari.jpg'); 
+  /* https://www.flickr.com/photos/salehalnemari/6688807457 */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#dream2 {
   background-image: url('../images/eiffel_tower_jeroen_bennink.jpg'); 
   /* https://www.flickr.com/photos/jeroenbennink/7047703331/ */
-  background-position: center;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#discover1 {
+  background-image: url('../images/sunset_umer_malik.jpg'); 
+  /* https://www.flickr.com/photos/a_perfect_heart/14554089711 */
+  background-position: center left;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -177,13 +258,13 @@ section h3#complete {
   background-image: url('../images/SVG/car.svg');
   background-repeat: no-repeat;
   background-position: -50px 50px;
-  background-size: 400px 400px;
+  background-size: 300px 300px;
 }
 
 #chalkboard {
   background-image: url('../images/SVG/chalkboard.svg');
   background-repeat: no-repeat;
-  background-position: -50px 50px;
+  background-position: -50px 0px;
   background-size: 400px 400px;
 }
 
@@ -197,22 +278,22 @@ section h3#complete {
 #drop {
   background-image: url('../images/SVG/drop.svg');
   background-repeat: no-repeat;
-  background-position: -50px 50px;
-  background-size: 400px 400px;
+  background-position: 150px -50px;
+  background-size: 500px 500px;
 }
 
 #glasses {
   background-image: url('../images/SVG/glasses.svg');
   background-repeat: no-repeat;
-  background-position: -50px 50px;
-  background-size: 400px 400px;
+  background-position: 50px -550px;
+  background-size: 1180px 1180px;
 }
 
 #glove {
   background-image: url('../images/SVG/glove.svg');
   background-repeat: no-repeat;
-  background-position: -50px 50px;
-  background-size: 400px 400px;
+  background-position: -150px -150px;
+  background-size: 600px 600px;
 }
 
 #hamburger {
@@ -243,6 +324,13 @@ section h3#complete {
   background-size: 400px 400px;
 }
 
+#map2 {
+  background-image: url('../images/SVG/map2.svg');
+  background-repeat: no-repeat;
+  background-position: -50px 50px;
+  background-size: 1400px 1400px;
+}
+
 #marker {
   background-image: url('../images/SVG/marker.svg');
   background-repeat: no-repeat;
@@ -250,10 +338,24 @@ section h3#complete {
   background-size: 400px 400px;
 }
 
+#mcfly {
+  background-image: url('../images/SVG/mcfly.svg');
+  background-repeat: no-repeat;
+  background-position: 170px -150px;
+  background-size: 700px 700px;
+}
+
+#medicine {
+  background-image: url('../images/SVG/medicine.svg');
+  background-repeat: no-repeat;
+  background-position: 10px 20px;
+  background-size: 500px 500px;
+}
+
 #mountain {
   background-image: url('../images/SVG/mountain.svg');
   background-repeat: no-repeat;
-  background-position: -50px 50px;
+  background-position: -50px 20px;
   background-size: 400px 400px;
 }
 
@@ -274,8 +376,8 @@ section h3#complete {
 #rocket {
   background-image: url('../images/SVG/rocket.svg');
   background-repeat: no-repeat;
-  background-position: -50px 50px;
-  background-size: 400px 400px;
+  background-position: 150px 150px;
+  background-size: 100px 100px;
 }
 
 #tactic {
@@ -288,14 +390,14 @@ section h3#complete {
 #umbrella {
   background-image: url('../images/SVG/umbrella.svg');
   background-repeat: no-repeat;
-  background-position: -50px 50px;
-  background-size: 400px 400px;
+  background-position: -150px 0px;
+  background-size: 1400px 1400px;
 }
 
 #www {
   background-image: url('../images/SVG/www.svg');
   background-repeat: no-repeat;
-  background-position: -50px 50px;
+  background-position: 650px 50px;
   background-size: 400px 400px;
 }
 
@@ -317,8 +419,8 @@ footer {
   text-align: center;
 }
 
-footer a:active, footer a:visited {
-  color: #1abc9c; /* rgb(26,188,156) */
+footer a, footer a:active, footer a:visited {
+  color: #95a5a6; /* rgb(149,165,166) */
   text-decoration: none;
 }
 
@@ -329,12 +431,21 @@ h4 {
 }
 
 /* RESPONSIVE */
-@media screen and (max-width: 600px) {  
+@media screen and (max-width: 850px) {
+  nav ul {  
+    width: 100%; 
+  }
+  section.list {
+    min-height: 7em;
+  }
+}
+
+
+@media screen and (max-width: 635px) {  
     nav {   
         height: auto;  
     }  
     nav ul {  
-        width: 100%;  
         display: block;  
         height: auto;  
     }  
@@ -353,8 +464,16 @@ h4 {
         text-indent: 25px;  
     }
 
-  section {
-    padding: 5% 0%;
+  section.list {
+    padding: 5% 5%;
+  }
+
+  section h1 {
+    font-size: 3em;
+  }
+
+  section div {
+    text-align: center;
   }
 
   section span {
@@ -365,6 +484,18 @@ h4 {
   span#uncheckbox {
     margin: 3px auto;
     padding: 1px;
+  }
+
+  p {
+    margin-left: 0px;
+  }
+
+  p.definition {
+    font-weight: 100;
+  }
+
+  section span {
+    max-width: 100%;
   }
 }
 
@@ -393,6 +524,17 @@ h4 {
         top: 10px;  
     }
 
+  section.list {
+    padding: 5% 5%;
+  }
+
+  section h1 {
+    font-size: 2em;
+  }
+
+  section h3 {
+    text-indent: 0px;
+  }
 }
 
 @media only screen and (max-width : 320px) {  
