@@ -1,5 +1,5 @@
 body {
-  background-color: #fff;
+  background-color: #ecf0f1; /* rgb(236,240,241) */  
   font-family: 'Roboto', sans-serif;
   font-size: 26px;
   font-weight: 100;
@@ -106,7 +106,7 @@ p.definition {
 
 section.megahero {
   color: #fff;
-  height: 21em;
+  height: 90vh;
   padding-left: 20px;
 }
 
