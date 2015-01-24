@@ -1,30 +1,43 @@
 body {
-  background-color: #ece8e5;
-  font-family: 'Dosis', sans-serif;
-  font-size: 36px;
+  background-color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 26px;
+  font-weight: 100;
+  line-height: 1.2;
 }
 
+div {
+  display: block;
+  min-height: 3.5em;
+}
+
+p {
+  display: block;
+}
+
+/* MENU START */
 nav {  
-  height: 40px;  
-  width: 100%;  
-  background: #455868;  
-  font-size: 11pt;  
-  font-family: 'PT Sans', Arial, sans-serif;  
-  font-weight: bold;  
+  height: 40px;
+  width: 100%;
+  background: #ecf0f1; /* rgb(236,240,241) */  
+  font-size: 1em;  
+  font-family: 'Roboto', Arial, sans-serif;  
   position: relative;  
-  border-bottom: 2px solid #283744;  
+  /* border-bottom: 2px solid #283744;  */
 }  
 
 nav ul {  
   padding: 0;  
   margin: 0 auto;  
-  width: 600px;  
+  width: 50%;  
   height: 40px;  
 }
 
 nav li {  
   display: inline;  
-  float: left;  
+  float: left;
+  width: 30%;
+  text-align: center;
 } 
 
 .clearfix:before,  
@@ -40,17 +53,16 @@ nav li {
 }  
 
 nav a {
-  color: #fff;
+  color: #95a5a6; /* rgb(149,165,166) */
   display: inline-block;
-  width: 100px;
   text-align: center;
   text-decoration: none;
   line-height: 40px;
-  text-shadow: 1px 1px 0px #283744;
+  /* text-shadow: 1px 1px 0px #283744; */
 }
 
 nav li a {
-  border-right: 1px solid #576979;  
+  /* border-right: 1px solid #576979; */
   box-sizing:border-box;
   -moz-box-sizing:border-box;
   -webkit-box-sizing:border-box;
@@ -60,14 +72,263 @@ nav li:last-child a {
   border-right: 0;  
 }
 
-nav a:hover, nav a:active {  
-  background-color: #8c99a4;  
+nav li:hover, nav li:active {  
+  background-color: #fff;
 }
 
 nav a#pull {  
   display: none;  
 }
+/* MENU END */
 
+/* SECTION FORMATTING START*/
+section {
+  color: #fff;
+  padding: 5% 30%;
+}
+
+section div {
+  text-align: center;
+}
+
+section span {
+  display: block;
+  float: left; 
+}
+
+section h2 {
+  font-size: 1em;
+  font-weight: 900;
+  border-bottom: 1px solid white;
+  border-top: 1px solid white; 
+  margin: 20px;
+}
+
+section h3 {
+  font-size: 3em;
+  text-indent: 10px;
+  line-height: 1em;
+}
+
+section h3#complete {
+  font-size: 4em;
+  font-weight: 700;
+  line-height: 1em;
+  padding: 0px;
+  margin: 0px;
+  word-break: break-all;
+}
+/* SECTION FORMATTING END*/
+
+/* section classes */
+.consume {
+  background-color: #ecf0f1; /* rgb(236,240,241) */
+}
+
+.create {
+  background-color: #f39c12; /* rgb(243,156,18) */
+}
+
+.heal {
+  background-color: #9b59b6; /* rgb(155,89,182) */
+}
+
+.learn {
+  background-color: #1abc9c; /* rgb(26,188,156) */
+}
+
+.live {
+  background-color: #f1c40f; /* rgb(241,196,15) */
+}
+
+.travel {
+  background-color: #e74c3c; /* rgb(231,76,60) */
+}
+
+/* section background hero images */
+.hero {
+  height: 12em;
+}
+
+#do1 {
+  background-image: url('../images/eiffel_tower_jeroen_bennink.jpg'); 
+  /* https://www.flickr.com/photos/jeroenbennink/7047703331/ */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* section background svg image ids */
+#backpack2 {
+  background-image: url('../images/SVG/backpack2.svg');
+  background-repeat: no-repeat;
+  background-position: -50px 50px;
+  background-size: 400px 400px;
+}
+
+#candy {
+  background-image: url('../images/SVG/candy.svg');
+  background-repeat: no-repeat;
+  background-position: -50px 50px;
+  background-size: 400px 400px;
+}
+
+#car {
+  background-image: url('../images/SVG/car.svg');
+  background-repeat: no-repeat;
+  background-position: -50px 50px;
+  background-size: 400px 400px;
+}
+
+#chalkboard {
+  background-image: url('../images/SVG/chalkboard.svg');
+  background-repeat: no-repeat;
+  background-position: -50px 50px;
+  background-size: 400px 400px;
+}
+
+#clock {
+  background-image: url('../images/SVG/clock.svg');
+  background-repeat: no-repeat;
+  background-position: -50px 50px;
+  background-size: 400px 400px;
+}
+
+#drop {
+  background-image: url('../images/SVG/drop.svg');
+  background-repeat: no-repeat;
+  background-position: -50px 50px;
+  background-size: 400px 400px;
+}
+
+#glasses {
+  background-image: url('../images/SVG/glasses.svg');
+  background-repeat: no-repeat;
+  background-position: -50px 50px;
+  background-size: 400px 400px;
+}
+
+#glove {
+  background-image: url('../images/SVG/glove.svg');
+  background-repeat: no-repeat;
+  background-position: -50px 50px;
+  background-size: 400px 400px;
+}
+
+#hamburger {
+  background-image: url('../images/SVG/hamburger.svg');
+  background-repeat: no-repeat;
+  background-position: -50px 50px;
+  background-size: 400px 400px;
+}
+
+#hotdog {
+  background-image: url('../images/SVG/hotdog.svg');
+  background-repeat: no-repeat;
+  background-position: -50px 50px;
+  background-size: 400px 400px;
+}
+
+#label {
+  background-image: url('../images/SVG/label.svg');
+  background-repeat: no-repeat;
+  background-position: -50px 50px;
+  background-size: 400px 400px;
+}
+
+#map {
+  background-image: url('../images/SVG/map.svg');
+  background-repeat: no-repeat;
+  background-position: -50px 50px;
+  background-size: 400px 400px;
+}
+
+#marker {
+  background-image: url('../images/SVG/marker.svg');
+  background-repeat: no-repeat;
+  background-position: -50px 50px;
+  background-size: 400px 400px;
+}
+
+#mountain {
+  background-image: url('../images/SVG/mountain.svg');
+  background-repeat: no-repeat;
+  background-position: -50px 50px;
+  background-size: 400px 400px;
+}
+
+#muffin {
+  background-image: url('../images/SVG/muffin.svg');
+  background-repeat: no-repeat;
+  background-position: -50px 50px;
+  background-size: 400px 400px;
+}
+
+#piggy {
+  background-image: url('../images/SVG/piggy.svg');
+  background-repeat: no-repeat;
+  background-position: -50px 50px;
+  background-size: 400px 400px;
+}
+
+#rocket {
+  background-image: url('../images/SVG/rocket.svg');
+  background-repeat: no-repeat;
+  background-position: -50px 50px;
+  background-size: 400px 400px;
+}
+
+#tactic {
+  background-image: url('../images/SVG/tactic.svg');
+  background-repeat: no-repeat;
+  background-position: -50px 50px;
+  background-size: 400px 400px;
+}
+
+#umbrella {
+  background-image: url('../images/SVG/umbrella.svg');
+  background-repeat: no-repeat;
+  background-position: -50px 50px;
+  background-size: 400px 400px;
+}
+
+#www {
+  background-image: url('../images/SVG/www.svg');
+  background-repeat: no-repeat;
+  background-position: -50px 50px;
+  background-size: 400px 400px;
+}
+
+/* CHECKBOXES */
+.checkbox {
+  height: 75px;
+  width: 75px;
+}
+
+span#uncheckbox {
+  background-image: url('../images/SVG/uncheckbox.svg');
+  height: 75px;
+  width: 75px;
+}
+
+/* FOOTER */
+footer {
+  padding: 15px;
+  text-align: center;
+}
+
+footer a:active, footer a:visited {
+  color: #1abc9c; /* rgb(26,188,156) */
+  text-decoration: none;
+}
+
+h4 {
+  display: inline-block;
+  font-size: 1em;
+  font-weight: 400;
+}
+
+/* RESPONSIVE */
 @media screen and (max-width: 600px) {  
     nav {   
         height: auto;  
@@ -78,19 +339,33 @@ nav a#pull {
         height: auto;  
     }  
     nav li {  
-        width: 50%;  
+        width: 100%;  
         float: left;  
         position: relative;  
     }  
     nav li a {  
-        border-bottom: 1px solid #576979;  
-        border-right: 1px solid #576979;  
+        border-bottom: 1px solid #fff;  
+        /* border-right: 1px solid #fff; */
     }  
     nav a {  
         text-align: left;  
         width: 100%;  
         text-indent: 25px;  
-    }  
+    }
+
+  section {
+    padding: 5% 0%;
+  }
+
+  section span {
+    display: block;
+    float: none; 
+  }
+
+  span#uncheckbox {
+    margin: 3px auto;
+    padding: 1px;
+  }
 }
 
 @media only screen and (max-width : 480px) {  
@@ -103,20 +378,21 @@ nav a#pull {
     }  
     nav a#pull {  
         display: block;  
-        background-color: #283744;  
+        background-color: #ecf0f1; /* rgb(236,240,241) */  
         width: 100%;  
         position: relative;  
     }  
     nav a#pull:after {  
         content:"";  
-        background: url('nav-icon.png') no-repeat;  
+        background: url('../images/nav-icon.png') no-repeat;  
         width: 30px;  
         height: 30px;  
         display: inline-block;  
         position: absolute;  
-        rightright: 15px;  
+        right: 15px;  
         top: 10px;  
-    }  
+    }
+
 }
 
 @media only screen and (max-width : 320px) {  
@@ -126,6 +402,6 @@ nav a#pull {
         width: 100%;  
     }  
     nav li a {  
-        border-bottom: 1px solid #576979;  
+        border-bottom: 1px solid #fff;  
     }  
 } 
