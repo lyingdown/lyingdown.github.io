@@ -520,6 +520,11 @@ h4 {
     background-size: 150px 150px;
   }
 
+  #mountain {
+    background-position: -10px 20px;
+    background-size: 100px 100px;
+  }
+
   #paperplane {
     background-position: 15px 10px;
     background-size: 100px 100px;
