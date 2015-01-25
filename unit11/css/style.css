@@ -7,6 +7,14 @@ body {
 }
 
 /* MENU START */
+header {
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+}
+
 nav {  
   height: 40px;
   width: 100%;
@@ -100,13 +108,13 @@ p {
 }
 
 p.definition {
-  font-weight: 400;
+  font-weight: 100;
   margin-left: 0px;
 }
 
 section.megahero {
   color: #fff;
-  height: 90vh;
+  height: 96vh;
   padding-left: 20px;
 }
 
@@ -181,6 +189,7 @@ section h3 {
   background-position: 0px -80px;
   background-repeat: no-repeat;
   background-size: cover;
+  margin-top: 40px;
 }
 
 #act1 {
@@ -189,6 +198,7 @@ section h3 {
   background-position: center top;
   background-repeat: no-repeat;
   background-size: cover;
+  margin-top: 40px;
 }
 
 #act2 {
@@ -205,6 +215,7 @@ section h3 {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  margin-top: 40px;
 }
 
 #ponder2 {
@@ -221,6 +232,7 @@ section h3 {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  margin-top: 40px;
 }
 
 #dream2 {
@@ -237,6 +249,7 @@ section h3 {
   background-position: center left;
   background-repeat: no-repeat;
   background-size: cover;
+  margin-top: 40px;
 }
 
 /* section background svg image ids */
@@ -505,6 +518,26 @@ h4 {
     max-width: 100%;
   }
 
+  #index1 {
+    margin-top: 163px;
+  }
+
+  #act1 {
+    margin-top: 163px;
+  }
+
+  #ponder1 {
+    margin-top: 163px;
+  }
+
+  #dream1 {
+    margin-top: 163px;
+  }
+
+  #discover1 {
+    margin-top: 163px;
+  }
+
   #car {
     background-position: 50px 50px;
     background-size: 50px 50px;
@@ -580,6 +613,27 @@ h4 {
     font-weight: 400;
     text-indent: 0px;
   }
+
+  #index1 {
+    margin-top: 40px;
+  }
+
+  #act1 {
+    margin-top: 40px;
+  }
+
+  #ponder1 {
+    margin-top: 40px;
+  }
+
+  #dream1 {
+    margin-top: 40px;
+  }
+
+  #discover1 {
+    margin-top: 40px;
+  }
+
 }
 
 @media only screen and (max-width : 320px) {  
